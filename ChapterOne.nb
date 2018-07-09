@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      5217,        147]
-NotebookOptionsPosition[      3920,        115]
-NotebookOutlinePosition[      4266,        130]
-CellTagsIndexPosition[      4223,        127]
+NotebookDataLength[      6127,        163]
+NotebookOptionsPosition[      4736,        130]
+NotebookOutlinePosition[      5082,        145]
+CellTagsIndexPosition[      5039,        142]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -77,11 +77,12 @@ Cell[TextData[{
  " One person rolls two six-sided dice, and another person flips six \
 two-sided coins. Which setup has the larger number of possible outcomes, \
 assuming that the order matters?\n\nClearly there are more possible outcomes \
-with the dice."
+with the dice than the coins."
 }], "Text",
  CellChangeTimes->{{3.740112678927*^9, 3.740112708469*^9}, {
   3.7401132438599997`*^9, 3.740113259535*^9}, {3.740113304719*^9, 
-  3.740113340684*^9}},ExpressionUUID->"0b135206-518b-4695-b2ee-50326c6b4f54"],
+  3.740113340684*^9}, {3.7401403401245003`*^9, 
+  3.7401403429125*^9}},ExpressionUUID->"0b135206-518b-4695-b2ee-50326c6b4f54"],
 
 Cell[CellGroupData[{
 
@@ -109,12 +110,26 @@ Cell[BoxData[
 Cell[BoxData["5.169925001442312`"], "Output",
  CellChangeTimes->{{3.740113227113*^9, 
   3.740113232531*^9}},ExpressionUUID->"fe6430da-b280-44b1-b145-1eb9b2aeea01"]
-}, Open  ]]
+}, Open  ]],
+
+Cell[TextData[{
+ StyleBox["1.3 Subtracting the repeats: ",
+  FontWeight->"Bold"],
+ "(a) From Eq. (1.6) we know that the number of ordered sets of three people \
+chosen from five people is 5 \[CenterDot] 4 \[CenterDot] 3 = 60. Reproduce \
+this result by starting with the naive answer of 53 = 125 ordered sets where \
+repetitions are allowed, and then subtracting off the number of triplets that \
+have repeated people.\n\n(b)It\[CloseCurlyQuote]s actually not much more \
+difficult to solve this problem in the general case where triplets are chosen \
+from N people, instead of five. Repeat part (a) for a general N."
+}], "Text",
+ CellChangeTimes->{{3.7401403999315*^9, 
+  3.7401404906825*^9}},ExpressionUUID->"af215b8a-e012-40e7-b7bc-e515bdbc2174"]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{944, 1022},
-WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"11.2 for Microsoft Windows (64-bit) (September 10, 2017)",
 StyleDefinitions->"Default.nb"
 ]
@@ -138,15 +153,16 @@ Cell[CellGroupData[{
 Cell[1719, 49, 578, 15, 28, "Input",ExpressionUUID->"3a24fc02-7741-4849-8c1d-b954e3fa0750"],
 Cell[2300, 66, 232, 4, 32, "Output",ExpressionUUID->"014d27fc-d0a0-46d8-9c2e-6aae7cfbaaf8"]
 }, Open  ]],
-Cell[2547, 73, 535, 10, 100, "Text",ExpressionUUID->"0b135206-518b-4695-b2ee-50326c6b4f54"],
+Cell[2547, 73, 599, 11, 100, "Text",ExpressionUUID->"0b135206-518b-4695-b2ee-50326c6b4f54"],
 Cell[CellGroupData[{
-Cell[3107, 87, 220, 5, 28, "Input",ExpressionUUID->"918b201d-e1bc-47df-a711-2374b1afc55e"],
-Cell[3330, 94, 125, 2, 32, "Output",ExpressionUUID->"aabb3d6d-8811-434f-983b-4e3fe19b6b9d"]
+Cell[3171, 88, 220, 5, 28, "Input",ExpressionUUID->"918b201d-e1bc-47df-a711-2374b1afc55e"],
+Cell[3394, 95, 125, 2, 32, "Output",ExpressionUUID->"aabb3d6d-8811-434f-983b-4e3fe19b6b9d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3492, 101, 222, 5, 28, "Input",ExpressionUUID->"0cd5266b-ea22-44ae-a228-8ae95ec9e544"],
-Cell[3717, 108, 163, 2, 32, "Output",ExpressionUUID->"fe6430da-b280-44b1-b145-1eb9b2aeea01"]
-}, Open  ]]
+Cell[3556, 102, 222, 5, 28, "Input",ExpressionUUID->"0cd5266b-ea22-44ae-a228-8ae95ec9e544"],
+Cell[3781, 109, 163, 2, 32, "Output",ExpressionUUID->"fe6430da-b280-44b1-b145-1eb9b2aeea01"]
+}, Open  ]],
+Cell[3959, 114, 749, 12, 144, "Text",ExpressionUUID->"af215b8a-e012-40e7-b7bc-e515bdbc2174"]
 }, Open  ]]
 }, Open  ]]
 }
