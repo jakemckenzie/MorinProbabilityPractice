@@ -1,0 +1,119 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3823,        109]
+NotebookOptionsPosition[      2965,         85]
+NotebookOutlinePosition[      3311,        100]
+CellTagsIndexPosition[      3268,         97]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Chapter One Problems", "Title",
+ CellChangeTimes->{{3.740111797616*^9, 3.740111801992*^9}, {3.74011183812*^9, 
+  3.7401118416619997`*^9}},
+ TextAlignment->Center,ExpressionUUID->"97b6d851-3208-44e3-ab48-e64d1846b3a8"],
+
+Cell[CellGroupData[{
+
+Cell["Section 1.11", "Section",
+ CellChangeTimes->{{3.740111855144*^9, 
+  3.740111865855*^9}},ExpressionUUID->"3bb1fe78-258c-4333-9715-1beb04cc719f"],
+
+Cell[TextData[{
+ StyleBox["1.1 Assigning Seats:",
+  FontWeight->"Bold"],
+ " Six girls and four boys are to be assigned to ten seats in a row, with the \
+stipulations that a girl sits in the third seat and a boy sits in the eighth \
+seat. How many arrangements are possible?\n\nIf I assign the first girl to \
+the third seat then there is one less spot for the other seats for the girls \
+and for the boys. This gives us the following equation."
+}], "Text",
+ CellChangeTimes->{{3.740111888224*^9, 3.740111956821*^9}, {
+  3.7401123953529997`*^9, 3.740112414171*^9}, {3.7401124912320004`*^9, 
+  3.7401125310699997`*^9}, {3.74011258042*^9, 
+  3.740112608979*^9}},ExpressionUUID->"20032a30-f973-4103-aa85-063e9450dda5"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"(", "6", " ", ")"}], "!"}], 
+  RowBox[{"Binomial", "[", 
+   RowBox[{
+    RowBox[{"6", " ", "-", " ", "1"}], ",", 
+    RowBox[{"4", "-", "1"}]}], "]"}], 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{"4", "-", "1"}], ")"}], "!"}]}]], "Input",
+ CellChangeTimes->{{3.740111997398*^9, 3.7401120004379997`*^9}, {
+  3.740112162823*^9, 3.7401122185480003`*^9}, {3.740112297116*^9, 
+  3.740112381856*^9}, {3.740112423153*^9, 3.740112425006*^9}, {
+  3.740112482164*^9, 
+  3.74011248434*^9}},ExpressionUUID->"3a24fc02-7741-4849-8c1d-b954e3fa0750"],
+
+Cell[BoxData["43200"], "Output",
+ CellChangeTimes->{
+  3.740112220991*^9, {3.740112300041*^9, 3.74011235023*^9}, 3.740112382523*^9,
+    3.740112426856*^9, 
+   3.74011261133*^9},ExpressionUUID->"014d27fc-d0a0-46d8-9c2e-6aae7cfbaaf8"]
+}, Open  ]],
+
+Cell[TextData[{
+ StyleBox["1.2. Number of outcomes:",
+  FontWeight->"Bold"],
+ " One person rolls two six-sided dice, and another person flips six \
+two-sided coins. Which setup has the larger number of possible outcomes, \
+assuming that the order matters?\n\n"
+}], "Text",
+ CellChangeTimes->{{3.740112678927*^9, 
+  3.740112708469*^9}},ExpressionUUID->"0b135206-518b-4695-b2ee-50326c6b4f54"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{944, 1022},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+FrontEndVersion->"11.2 for Microsoft Windows (64-bit) (September 10, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 223, 3, 96, "Title",ExpressionUUID->"97b6d851-3208-44e3-ab48-e64d1846b3a8"],
+Cell[CellGroupData[{
+Cell[828, 29, 149, 2, 67, "Section",ExpressionUUID->"3bb1fe78-258c-4333-9715-1beb04cc719f"],
+Cell[980, 33, 714, 12, 122, "Text",ExpressionUUID->"20032a30-f973-4103-aa85-063e9450dda5"],
+Cell[CellGroupData[{
+Cell[1719, 49, 578, 15, 28, "Input",ExpressionUUID->"3a24fc02-7741-4849-8c1d-b954e3fa0750"],
+Cell[2300, 66, 232, 4, 32, "Output",ExpressionUUID->"014d27fc-d0a0-46d8-9c2e-6aae7cfbaaf8"]
+}, Open  ]],
+Cell[2547, 73, 390, 8, 100, "Text",ExpressionUUID->"0b135206-518b-4695-b2ee-50326c6b4f54"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
