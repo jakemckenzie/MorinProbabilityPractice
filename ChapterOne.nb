@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      3823,        109]
-NotebookOptionsPosition[      2965,         85]
-NotebookOutlinePosition[      3311,        100]
-CellTagsIndexPosition[      3268,         97]
+NotebookDataLength[      5217,        147]
+NotebookOptionsPosition[      3920,        115]
+NotebookOutlinePosition[      4266,        130]
+CellTagsIndexPosition[      4223,        127]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -76,10 +76,40 @@ Cell[TextData[{
   FontWeight->"Bold"],
  " One person rolls two six-sided dice, and another person flips six \
 two-sided coins. Which setup has the larger number of possible outcomes, \
-assuming that the order matters?\n\n"
+assuming that the order matters?\n\nClearly there are more possible outcomes \
+with the dice."
 }], "Text",
- CellChangeTimes->{{3.740112678927*^9, 
-  3.740112708469*^9}},ExpressionUUID->"0b135206-518b-4695-b2ee-50326c6b4f54"]
+ CellChangeTimes->{{3.740112678927*^9, 3.740112708469*^9}, {
+  3.7401132438599997`*^9, 3.740113259535*^9}, {3.740113304719*^9, 
+  3.740113340684*^9}},ExpressionUUID->"0b135206-518b-4695-b2ee-50326c6b4f54"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Log", "[", 
+  RowBox[{"2", ",", 
+   RowBox[{"2", "^", "6"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.74011319333*^9, 
+  3.740113209976*^9}},ExpressionUUID->"918b201d-e1bc-47df-a711-2374b1afc55e"],
+
+Cell[BoxData["6"], "Output",
+ CellChangeTimes->{
+  3.740113210716*^9},ExpressionUUID->"aabb3d6d-8811-434f-983b-4e3fe19b6b9d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Log", "[", 
+  RowBox[{"2.", ",", 
+   RowBox[{"6", "^", "2"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.740113224696*^9, 
+  3.740113232017*^9}},ExpressionUUID->"0cd5266b-ea22-44ae-a228-8ae95ec9e544"],
+
+Cell[BoxData["5.169925001442312`"], "Output",
+ CellChangeTimes->{{3.740113227113*^9, 
+  3.740113232531*^9}},ExpressionUUID->"fe6430da-b280-44b1-b145-1eb9b2aeea01"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
@@ -108,12 +138,18 @@ Cell[CellGroupData[{
 Cell[1719, 49, 578, 15, 28, "Input",ExpressionUUID->"3a24fc02-7741-4849-8c1d-b954e3fa0750"],
 Cell[2300, 66, 232, 4, 32, "Output",ExpressionUUID->"014d27fc-d0a0-46d8-9c2e-6aae7cfbaaf8"]
 }, Open  ]],
-Cell[2547, 73, 390, 8, 100, "Text",ExpressionUUID->"0b135206-518b-4695-b2ee-50326c6b4f54"]
+Cell[2547, 73, 535, 10, 100, "Text",ExpressionUUID->"0b135206-518b-4695-b2ee-50326c6b4f54"],
+Cell[CellGroupData[{
+Cell[3107, 87, 220, 5, 28, "Input",ExpressionUUID->"918b201d-e1bc-47df-a711-2374b1afc55e"],
+Cell[3330, 94, 125, 2, 32, "Output",ExpressionUUID->"aabb3d6d-8811-434f-983b-4e3fe19b6b9d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3492, 101, 222, 5, 28, "Input",ExpressionUUID->"0cd5266b-ea22-44ae-a228-8ae95ec9e544"],
+Cell[3717, 108, 163, 2, 32, "Output",ExpressionUUID->"fe6430da-b280-44b1-b145-1eb9b2aeea01"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
