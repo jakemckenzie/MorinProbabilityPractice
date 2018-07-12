@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     23773,        668]
-NotebookOptionsPosition[     21299,        617]
-NotebookOutlinePosition[     21645,        632]
-CellTagsIndexPosition[     21602,        629]
+NotebookDataLength[     25514,        723]
+NotebookOptionsPosition[     22502,        663]
+NotebookOutlinePosition[     22848,        678]
+CellTagsIndexPosition[     22805,        675]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -611,6 +611,52 @@ Cell[BoxData["60"], "Output",
   3.740364270981201*^9, 
   3.740365621139201*^9},ExpressionUUID->"a5c66986-f75a-401c-9824-\
 72924a16fa76"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"6", "*", "5", "*", "4"}]], "Input",
+ CellChangeTimes->{{3.740366427422201*^9, 
+  3.7403664294272013`*^9}},ExpressionUUID->"d5dfff2c-671d-4de8-bc7c-\
+c08bad831ce8"],
+
+Cell[BoxData["120"], "Output",
+ CellChangeTimes->{
+  3.7403664298092012`*^9},ExpressionUUID->"bf935051-837a-4fac-892f-\
+b05924c0a562"]
+}, Open  ]],
+
+Cell[TextData[{
+ StyleBox["1.6.",
+  FontWeight->"Bold"],
+ " ",
+ StyleBox["Many ways to count *",
+  FontWeight->"Bold"],
+ "\nHow many different orderings are there of the six letters: A, A, A, B, B, \
+C?\nHow many different ways can you think of to answer this question?"
+}], "Text",
+ CellChangeTimes->{
+  3.7403665435392013`*^9},ExpressionUUID->"d713c1d5-91bb-41d5-b584-\
+8c11f378af29"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"6", "!"}], "/", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"3", "!"}], "*", 
+    RowBox[{"2", "!"}]}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.740366584556201*^9, 
+  3.7403665970222015`*^9}},ExpressionUUID->"a913e9d7-c3da-4e92-a4fc-\
+cc1386f28b52"],
+
+Cell[BoxData["60"], "Output",
+ CellChangeTimes->{
+  3.740366597593201*^9},ExpressionUUID->"1099e500-fc2e-4cd2-9196-\
+269dc0d9a5cd"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -667,6 +713,15 @@ Cell[CellGroupData[{
 Cell[15932, 459, 753, 19, 48, "Input",ExpressionUUID->"90d9baee-62ba-45ee-b555-cfceffd599c2"],
 Cell[16688, 480, 4366, 126, 128, "Output",ExpressionUUID->"4b3d61af-fd58-4487-bd23-ca0ecfd3563b"],
 Cell[21057, 608, 202, 4, 32, "Output",ExpressionUUID->"a5c66986-f75a-401c-9824-72924a16fa76"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21296, 617, 187, 4, 28, "Input",ExpressionUUID->"d5dfff2c-671d-4de8-bc7c-c08bad831ce8"],
+Cell[21486, 623, 134, 3, 32, "Output",ExpressionUUID->"bf935051-837a-4fac-892f-b05924c0a562"]
+}, Open  ]],
+Cell[21635, 629, 386, 11, 78, "Text",ExpressionUUID->"d713c1d5-91bb-41d5-b584-8c11f378af29"],
+Cell[CellGroupData[{
+Cell[22046, 644, 282, 9, 28, "Input",ExpressionUUID->"a913e9d7-c3da-4e92-a4fc-cc1386f28b52"],
+Cell[22331, 655, 131, 3, 65, "Output",ExpressionUUID->"1099e500-fc2e-4cd2-9196-269dc0d9a5cd"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
