@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     25514,        723]
-NotebookOptionsPosition[     22502,        663]
-NotebookOutlinePosition[     22848,        678]
-CellTagsIndexPosition[     22805,        675]
+NotebookDataLength[     26695,        750]
+NotebookOptionsPosition[     23460,        686]
+NotebookOutlinePosition[     23806,        701]
+CellTagsIndexPosition[     23763,        698]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -634,11 +634,16 @@ Cell[TextData[{
  StyleBox["Many ways to count *",
   FontWeight->"Bold"],
  "\nHow many different orderings are there of the six letters: A, A, A, B, B, \
-C?\nHow many different ways can you think of to answer this question?"
+C?\nHow many different ways can you think of to answer this question?\nThere \
+are 6 total letters total. If there are six unique letters there are 6! \
+unique orderings. But since there are  3 repeats and 2 repeats we divide by \
+the factorial of those repeats. We can also use binomial to solve this \
+problem."
 }], "Text",
  CellChangeTimes->{
-  3.7403665435392013`*^9},ExpressionUUID->"d713c1d5-91bb-41d5-b584-\
-8c11f378af29"],
+  3.7403665435392013`*^9, {3.7404536240215*^9, 3.7404537087025003`*^9}, {
+   3.740492155748*^9, 
+   3.740492165675*^9}},ExpressionUUID->"d713c1d5-91bb-41d5-b584-8c11f378af29"],
 
 Cell[CellGroupData[{
 
@@ -657,12 +662,30 @@ Cell[BoxData["60"], "Output",
  CellChangeTimes->{
   3.740366597593201*^9},ExpressionUUID->"1099e500-fc2e-4cd2-9196-\
 269dc0d9a5cd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Binomial", "[", 
+   RowBox[{"6", ",", "3"}], "]"}], "*", 
+  RowBox[{"Binomial", "[", 
+   RowBox[{"3", ",", "2"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.74049151079*^9, 3.740491564523*^9}, {3.740491610742*^9, 
+  3.740491676385*^9}, {3.740491761811*^9, 
+  3.740491778118*^9}},ExpressionUUID->"d5753eb0-7eaa-47c3-b8e0-662a57742bb3"],
+
+Cell[BoxData["60"], "Output",
+ CellChangeTimes->{{3.740491531358*^9, 3.7404915653900003`*^9}, {
+   3.740491615666*^9, 3.740491676992*^9}, 
+   3.740491778594*^9},ExpressionUUID->"6af96c61-29e3-46d9-8792-02e436a18475"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{944, 1022},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
 FrontEndVersion->"11.2 for Microsoft Windows (64-bit) (September 10, 2017)",
 StyleDefinitions->"Default.nb"
 ]
@@ -718,10 +741,14 @@ Cell[CellGroupData[{
 Cell[21296, 617, 187, 4, 28, "Input",ExpressionUUID->"d5dfff2c-671d-4de8-bc7c-c08bad831ce8"],
 Cell[21486, 623, 134, 3, 32, "Output",ExpressionUUID->"bf935051-837a-4fac-892f-b05924c0a562"]
 }, Open  ]],
-Cell[21635, 629, 386, 11, 78, "Text",ExpressionUUID->"d713c1d5-91bb-41d5-b584-8c11f378af29"],
+Cell[21635, 629, 721, 16, 122, "Text",ExpressionUUID->"d713c1d5-91bb-41d5-b584-8c11f378af29"],
 Cell[CellGroupData[{
-Cell[22046, 644, 282, 9, 28, "Input",ExpressionUUID->"a913e9d7-c3da-4e92-a4fc-cc1386f28b52"],
-Cell[22331, 655, 131, 3, 65, "Output",ExpressionUUID->"1099e500-fc2e-4cd2-9196-269dc0d9a5cd"]
+Cell[22381, 649, 282, 9, 28, "Input",ExpressionUUID->"a913e9d7-c3da-4e92-a4fc-cc1386f28b52"],
+Cell[22666, 660, 131, 3, 32, "Output",ExpressionUUID->"1099e500-fc2e-4cd2-9196-269dc0d9a5cd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22834, 668, 367, 8, 28, "Input",ExpressionUUID->"d5753eb0-7eaa-47c3-b8e0-662a57742bb3"],
+Cell[23204, 678, 216, 3, 32, "Output",ExpressionUUID->"6af96c61-29e3-46d9-8792-02e436a18475"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
